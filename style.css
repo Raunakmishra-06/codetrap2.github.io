@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Bungee&family=Lobster&family=Noto+Serif:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bungee&family=Lobster&family=Noto+Serif:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Aboreto&family=Bungee&family=Lobster&family=Noto+Serif:wght@400;700&family=Teko&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    /* box-sizing: border-box; */
+    letter-spacing: 1px;
+    
+}
+#logo{
+    font-family:  cursive;
+}
+.selector-for-some-widget {
+    box-sizing: content-box;
+  }
+:root{
+    --font-color:#ffffff;
+    --font-style:'Bungee', cursive;
+}
+body{
+    font-family: 'Aboreto', cursive ;
+font-family: 'Bungee', cursive;
+font-family: 'Lobster', cursive;
+font-family: 'Noto Serif', serif;
+font-family: 'Teko', sans-serif
+    
+}
+
+/* .new:hover{
+    transition: all 0.2s ease-in;
+    box-shadow:0px 0px 12px 2px gold;
+} */
+.mgb2{
+    margin-bottom: 1rem !important;
+}
+.title-text,.mgb2{
+    color:var(--font-color) !important;
+}
+.row{
+    padding-top: 5%;
+}
+
+.header{
+    height: 100%;
+}
+.new:hover{
+    transition: all 0.6s ease-out;
+    box-shadow: 0 0 12px 2px gold;
+}
+.nav-link{
+    font-weight: 500 !important;
+}
+section{
+    margin-bottom: 12rem;
+}
+hr{
+margin:  0px auto !important;
+border-top: none !important;
+opacity: inherit !important;
+}
+hr{
+    width: 30%;
+    background-color: gold;
+    height: 2px;
+}
+.navbar-toggler{
+    border: 0 !important;
+    padding:0 !important;
+}
+
+@media(max-width:940px)  {
+    .mgb1{
+        margin-top: 3.5rem;
+    }
+}
+@media(max-width:500px){
+    .img{
+        margin-top: 5rem;
+    }
+    section{
+        margin-bottom: 5rem;
+    }
+}
+.animation{
+    animation-name: raunak;
+    animation-duration: 4s;
+    animation-iteration-count:infinite;
+    animation-timing-function: ease-in-out;
+}
+@keyframes raunak{
+    from{
+       box-shadow: 0px 0px 12px 2px gold;
+    }
+    to{
+        box-shadow: 0px 0px 12px 2px rgba(230, 255, 5, 0.176);
+    }
+  }
